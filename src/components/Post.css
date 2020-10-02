@@ -1,0 +1,39 @@
+.post {
+	max-width: 600px;
+	background-color: white;
+	border: 1px solid lightgray;
+	border-radius: 3px;
+	margin: 30px;
+	align-self: center;
+}
+
+@media screen and (max-width: 640px) {
+	.post {
+		border: none;
+		background-color: white;
+		margin: 0 0 15px 0;
+	}
+}
+
+.post__image {
+	width: 100%;
+	object-fit: contain;
+}
+
+.post__text {
+	font-weight: normal;
+}
+
+.post__header {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+
+.post__avatar {
+	margin-right: 10px;
+}
+
+.post__text {
+	padding: 10px;
+}
