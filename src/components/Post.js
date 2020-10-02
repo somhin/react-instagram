@@ -10,9 +10,10 @@ function Post({ username, caption, imageUrl }) {
 				<Avatar
 					className="post__avatar"
 					alt={username}
-					src="../../static/images/avatar/somfuckinghin.jpg"
+					src="../images/avatar/somfuckinghin.jpg"
+					style={{ height: "32px", width: "32px" }}
 				/>
-				<b>{username}</b>
+				<p>{username}</p>
 			</div>
 
 			{/* image */}

@@ -27,7 +27,8 @@
 .post__header {
 	display: flex;
 	align-items: center;
-	padding: 10px;
+	padding: 16px;
+	font-weight: 600;
 }
 
 .post__avatar {
